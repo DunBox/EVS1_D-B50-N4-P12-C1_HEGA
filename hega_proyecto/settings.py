@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hega_aplicacion1',
+    'hega_aplicacion2',
 ]
 
 MIDDLEWARE = [

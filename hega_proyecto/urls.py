@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from hega_aplicacion2 import views as app2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('hola2/', app2.hola2),
+    path('dato/', app2.dato),
 ]
